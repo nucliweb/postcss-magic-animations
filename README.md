@@ -1,6 +1,4 @@
-# PostCSS Nucliweb [![Build Status][ci-img]][ci]
-
-[PostCSS] plugin test.
+# PostCSS Magic Animations [![Build Status][ci-img]][ci]
 
 [PostCSS]: https://github.com/postcss/postcss
 [ci-img]:  https://travis-ci.org/nucliweb/postcss-magic-animations.svg
