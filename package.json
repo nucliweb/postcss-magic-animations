@@ -23,6 +23,6 @@
     "ava": "^0.14.0"
   },
   "scripts": {
-    "test": "ava"
+    "test": "ava test/test.js"
   }
 }
