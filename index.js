@@ -1,13 +1,23 @@
-var postcss = require('postcss');
+const postcss = require('postcss')
+const keyframes = require('postcss-magic-animations-data')
 
-module.exports = postcss.plugin('postcss-magic-animations', function (opts) {
-    opts = opts || {};
+const walkingDecls = (css, value, parent, options) => {
+  return options.atRoot ? css.append(keyframes[value])
+                        : parent.parent.insertAfter(parent, keyframes[value])
+}
 
-    // Work with options here
+module.exports = postcss.plugin('postcss-magic-animations', (options) => {
+  options = options || {}
 
-    return function (css, result) {
+  return (css, result) => {
+    css.walkDecls('animation-name', (decl) => {
+      keyframes[decl.value] && walkingDecls(css, decl.value, decl.parent, options)
+    })
 
-        // Transform CSS AST here
-
-    };
-});
+    css.walkDecls('animation', (decl) => {
+      postcss.list.space(decl.value)
+        .filter((value) => keyframes[value])
+        .forEach((value) => walkingDecls(css, value, decl.parent, options))
+    })
+  }
+})

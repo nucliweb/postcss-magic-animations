@@ -1,7 +1,7 @@
 {
   "name": "postcss-magic-animations",
   "version": "0.0.0",
-  "description": "PostCSS plugin that adds @keuframes from Magic Aniamtions",
+  "description": "PostCSS plugin that adds @keyframes from Magic Animations",
   "keywords": [
     "postcss",
     "css",
@@ -16,17 +16,13 @@
   },
   "homepage": "https://github.com/nucliweb/postcss-magic-animations",
   "dependencies": {
-    "postcss": "^5.0.16"
+    "postcss": "^5.0.16",
+    "postcss-magic-animations-data": "^1.0.0"
   },
   "devDependencies": {
-    "ava": "^0.14.0",
-    "eslint": "^2.1.0",
-    "eslint-config-postcss": "^2.0.0"
+    "ava": "^0.14.0"
   },
   "scripts": {
-    "test": "ava && eslint *.js"
-  },
-  "eslintConfig": {
-    "extends": "eslint-config-postcss/es5"
+    "test": "ava"
   }
 }
