@@ -6,7 +6,7 @@
 [ci-img]:  https://travis-ci.org/nucliweb/postcss-magic-animations.svg
 [ci]:      https://travis-ci.org/nucliweb/postcss-magic-animations
 
-[PostCSS]() plugin that adds `@keyframes` from [Magic Animations]()
+[PostCSS](https://github.com/postcss/postcss/) plugin that adds `@keyframes` from [Magic Animations](https://github.com/miniMAC/magic)
 
 ![Screen](./magic.gif)
 
