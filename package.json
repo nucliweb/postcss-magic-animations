@@ -1,0 +1,32 @@
+{
+  "name": "postcss-magic-animations",
+  "version": "0.0.0",
+  "description": "PostCSS plugin that adds @keuframes from Magic Aniamtions",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "animation"
+  ],
+  "author": "Joan Leon <joan.leon@gmail.com>",
+  "license": "MIT",
+  "repository": "nucliweb/postcss-magic-animations",
+  "bugs": {
+    "url": "https://github.com/nucliweb/postcss-magic-animations/issues"
+  },
+  "homepage": "https://github.com/nucliweb/postcss-magic-animations",
+  "dependencies": {
+    "postcss": "^5.0.16"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "eslint": "^2.1.0",
+    "eslint-config-postcss": "^2.0.0"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5"
+  }
+}
