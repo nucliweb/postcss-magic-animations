@@ -3,8 +3,8 @@
 [PostCSS] plugin test.
 
 [PostCSS]: https://github.com/postcss/postcss
-[ci-img]:  https://travis-ci.org/nucliweb/magic-animations.svg
-[ci]:      https://travis-ci.org/nucliweb/magic-animations
+[ci-img]:  https://travis-ci.org/nucliweb/postcss-magic-animations.svg
+[ci]:      https://travis-ci.org/nucliweb/postcss-magic-animations
 
 [PostCSS]() plugin that adds `@keyframes` from [Magic Animations]()
 
