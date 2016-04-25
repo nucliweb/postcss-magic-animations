@@ -1,6 +1,6 @@
 {
   "name": "postcss-magic-animations",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "PostCSS plugin that adds @keyframes from Magic Animations",
   "keywords": [
     "postcss",
