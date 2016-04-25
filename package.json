@@ -1,6 +1,6 @@
 {
   "name": "postcss-magic-animations",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "PostCSS plugin that adds @keyframes from Magic Animations",
   "keywords": [
     "postcss",
@@ -8,7 +8,12 @@
     "postcss-plugin",
     "animation"
   ],
-  "author": "Joan Leon <joan.leon@gmail.com>",
+  "author": {
+    "name": "Joan León",
+    "mail": "joan.leon@gmail.com",
+    "twitter": "@nucliweb"
+  },
+
   "license": "MIT",
   "repository": "nucliweb/postcss-magic-animations",
   "bugs": {
