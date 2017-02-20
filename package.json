@@ -1,6 +1,6 @@
 {
   "name": "postcss-magic-animations",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "PostCSS plugin that adds @keyframes from Magic Animations",
   "keywords": [
     "postcss",
@@ -22,7 +22,7 @@
   "homepage": "https://github.com/nucliweb/postcss-magic-animations",
   "dependencies": {
     "postcss": "^5.0.16",
-    "postcss-magic-animations-data": "^1.0.0"
+    "postcss-magic-animations-data": "^1.2.1"
   },
   "devDependencies": {
     "ava": "^0.14.0"
