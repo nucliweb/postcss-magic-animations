@@ -93,5 +93,5 @@ Defines `atRoot: true` to prevent the `@keyframes` can be nested in a ​**media
 
 ## Thanks
 * [@miniMAC](https://github.com/miniMAC) for [magic](https://github.com/miniMAC/magic)
-* [@zhouwenbin](https://github.com/zhouwenbin) for the inspiration with [PosCSS Animation](https://github.com/zhouwenbin/postcss-animation)
+* [@zhouwenbin](https://github.com/zhouwenbin) for the inspiration with [PostCSS Animation](https://github.com/zhouwenbin/postcss-animation)
 * [@carlosvillu](https://github.com/carlosvillu) for the help to get a ninja code
